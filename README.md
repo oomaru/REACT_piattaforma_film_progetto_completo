@@ -1,0 +1,3 @@
+Come funziona la selezione di un film:
+
+1. In App.js è presente la funzione selectMovie che riceverà il movie selezionato quando clicchiamo, e lo metterà nello stato. Non appena selectMovie cambia, MovieDetal viene reinderizzato (e cambierà il titolo). La funzione selectMovie la passiamo a MovieList con la proprietà onSelectMovie. MovieList la riceve come props e noi la destrutturiamo, e la passiamo a MovieItem con lo stesso nome. Ora, MovieItem può chiamare questo metodo passando movie.
